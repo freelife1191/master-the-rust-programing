@@ -1,0 +1,6 @@
+[package]
+name = "ch06_print_float_hex_binary"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

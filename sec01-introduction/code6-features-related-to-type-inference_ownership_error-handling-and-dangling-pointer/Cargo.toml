@@ -1,0 +1,6 @@
+[package]
+name = "code6-features-related-to-type-inference_ownership_error-handling-and-dangling-pointer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

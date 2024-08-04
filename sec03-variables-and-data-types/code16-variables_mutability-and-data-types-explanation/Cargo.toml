@@ -1,0 +1,6 @@
+[package]
+name = "code16-variables_mutability-and-data-types-explanation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

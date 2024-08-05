@@ -33,6 +33,22 @@
       <sourceFolder url="file://$MODULE_DIR$/sec10-tuples/ch29_tuple_pattern_matching_using_match/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec05-references/code30-borrow-borrower-and-referent/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec05-references/code31-slice-data-type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/ch09-tuple-pattern-matching-using-match/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/ch10-array-pattern-matching-using-match/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/ch11-if-let-else-if-let-else/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/code33-using-if-else-as-statements-and-expressions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/code34-the-match-statement/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/code36-comparision-and-logical-operators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/code37-bitwise-operators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/exercise-diy-6-2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec06-decision-making/exercise-diy-6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/ch12-converting-string-to-slice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/ch13-string-indexing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/ch14-string-to-byte-array/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/ch15-string-to-graphemes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/code40-strings-in-rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/code42-slice-of-a-string/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/exercise-diy-7/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code4-borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code5-rust-automatically-deallocates-heap-memory/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code6-features-related-to-type-inference_ownership_error-handling-and-dangling-pointer/target" />
@@ -64,6 +80,25 @@
       <excludeFolder url="file://$MODULE_DIR$/sec10-tuples/ch29_tuple_pattern_matching_using_match/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec05-references/code30-borrow-borrower-and-referent/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec05-references/code31-slice-data-type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch1-prints/print_002/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch1-prints/using_rust_tools_004/target" />
+      <excludeFolder url="file://$MODULE_DIR$/exercises/Exercise-diy-1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/ch09-tuple-pattern-matching-using-match/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/ch10-array-pattern-matching-using-match/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/ch11-if-let-else-if-let-else/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/code33-using-if-else-as-statements-and-expressions/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/code34-the-match-statement/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/code36-comparision-and-logical-operators/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/code37-bitwise-operators/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/exercise-diy-6-2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec06-decision-making/exercise-diy-6/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/ch12-converting-string-to-slice/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/ch13-string-indexing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/ch14-string-to-byte-array/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/ch15-string-to-graphemes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/code40-strings-in-rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/code42-slice-of-a-string/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/exercise-diy-7/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

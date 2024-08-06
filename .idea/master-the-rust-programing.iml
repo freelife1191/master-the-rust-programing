@@ -49,6 +49,31 @@
       <sourceFolder url="file://$MODULE_DIR$/sec07-strings/code40-strings-in-rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec07-strings/code42-slice-of-a-string/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec07-strings/exercise-diy-7/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/code44-string-concatination/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec08-ownership/code49-ownership-move-and-copy-semantics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec08-ownership/code50-call-by-value-and-call-by-reference/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch16-loop-with-break/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch17-break-with-value/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch18-break-with-label-and-value/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch19-for-in-loop-with-range-expr/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch20-iterate-with-step-size/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch21-iterate-over-array/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch21-iterate-over-string/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch22-iterate-by-value-borrow-mut-borrow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch23-while-loop/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch24-while-let-loop/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/ch25-loop-as-expression/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/exercise-diy-8/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec10-tuples/ch27-tuple/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec10-tuples/ch28-tuple-comparision/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec10-tuples/ch29-tuple-pattern-matching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec10-tuples/exercise-diy-10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec10-tuples/exercise-diy-9/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch30-struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch31-struct-initialization/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch32-tuple-struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch33-struct-passing-by-ref/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch34-struct-methods-assoc-fns/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code4-borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code5-rust-automatically-deallocates-heap-memory/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code6-features-related-to-type-inference_ownership_error-handling-and-dangling-pointer/target" />
@@ -99,6 +124,31 @@
       <excludeFolder url="file://$MODULE_DIR$/sec07-strings/code40-strings-in-rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec07-strings/code42-slice-of-a-string/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec07-strings/exercise-diy-7/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/code44-string-concatination/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec08-ownership/code49-ownership-move-and-copy-semantics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec08-ownership/code50-call-by-value-and-call-by-reference/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch16-loop-with-break/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch17-break-with-value/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch18-break-with-label-and-value/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch19-for-in-loop-with-range-expr/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch20-iterate-with-step-size/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch21-iterate-over-array/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch21-iterate-over-string/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch22-iterate-by-value-borrow-mut-borrow/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch23-while-loop/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch24-while-let-loop/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/ch25-loop-as-expression/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/exercise-diy-8/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec10-tuples/ch27-tuple/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec10-tuples/ch28-tuple-comparision/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec10-tuples/ch29-tuple-pattern-matching/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec10-tuples/exercise-diy-10/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec10-tuples/exercise-diy-9/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch30-struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch31-struct-initialization/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch32-tuple-struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch33-struct-passing-by-ref/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch34-struct-methods-assoc-fns/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -46,27 +46,27 @@ fn main() {
 fn promt_passwd_change_message() -> (String, String) {
     println!(
         r##"
-###### Set New Password ######
-1. At least 1 letter between [a-z]
-2. At least 1 number between [0-9]
-3. At least 1 letter between [A-Z]
-4. At least 1 character from [$#@]
-5. Minimum length of transaction password: 6
-6. Maximum length of transaction password: 12
+###### 새 비밀번호 설정 ######
+1. [a-z] 사이에 문자 1개 이상
+2. [0~9] 사이의 숫자 1개 이상
+3. [A-Z] 사이에 최소 1개의 문자
+4. [$#@]에서 1자 이상
+5. 거래 비밀번호의 최소 길이: 6
+6. 거래 비밀번호 최대 길이: 12
         "##
     );
 
     println!(
-        "Enter New Password:"
+        "새 비밀번호를 입력하십시오:"
     );
     let mut passwd = String::new();
-    io::stdin().read_line(&mut passwd).expect("Error while reading from stdin");
+    io::stdin().read_line(&mut passwd).expect("stdin에서 읽는 중 오류가 발생");
 
     let mut re_enter_passwd = String::new();
     println!(
-        "Re-enter New Password:"
+        "새 비밀번호를 다시 입력하세요:"
     );
-    io::stdin().read_line(&mut re_enter_passwd).expect("Error while reading from stdin");
+    io::stdin().read_line(&mut re_enter_passwd).expect("stdin에서 읽는 중 오류가 발생");
 
     (passwd.trim().to_string(), re_enter_passwd.trim().to_string())
 }
@@ -78,6 +78,7 @@ fn is_password_match(passwd_1: &str, passwd_2: &str) -> bool {
 
 fn is_password_contain_lower_case_letters(passwd: &str) -> bool {
     for ch in passwd.chars() {
+        // https://doc.rust-lang.org/std/primitive.char.html#method.is_ascii_lowercase
         if ch.is_ascii_lowercase() {
             return true;
         }
@@ -88,6 +89,7 @@ fn is_password_contain_lower_case_letters(passwd: &str) -> bool {
 
 fn is_password_contain_upper_case_letters(passwd: &str) -> bool {
     for ch in passwd.chars() {
+        // https://doc.rust-lang.org/std/primitive.char.html#method.is_ascii_uppercase
         if ch.is_ascii_uppercase() {
             return true;
         }
@@ -98,6 +100,7 @@ fn is_password_contain_upper_case_letters(passwd: &str) -> bool {
 
 fn is_password_contains_digits(passwd: &str) -> bool {
     for c in passwd.chars() {
+        // https://doc.rust-lang.org/std/primitive.char.html#method.is_ascii_digit
         if c.is_ascii_digit() {
             return true;
         }
@@ -123,6 +126,7 @@ fn is_password_contains_allowed_special_chars(passwd: &str) -> bool {
 
 fn is_password_contains_illegal_special_chars(passwd: &str) -> bool {
     for c in passwd.chars() {
+        // https://doc.rust-lang.org/std/primitive.char.html#method.is_ascii_alphanumeric
         if c.is_ascii_alphanumeric() || is_allowed_special_chars(c) {
             continue;
         } else {
@@ -151,13 +155,16 @@ fn check_password_strength(passwd: &str) -> i32 {
     }
 }
 
+// Rust 컴파일러에게 반환하는 문자열 슬라이스를 설명함
+// 정적 수명을 가지며 컴파일러 반환 값을 관리
+// static을 추가하면 코드가 통과하는지 여부를 확인할 수 있음
 fn print_status(weak_or_strong: i32, match_status: bool) -> &'static str {
     if !match_status {
-        "Password do not match\nPassword change was unsuccessful"
+        "비밀번호가 일치하지 않습니다.\n비밀번호 변경에 실패했습니다"
     } else if weak_or_strong == 1 {
-        "Password is Strong\nPassword change was successful"
+        "비밀번호가 강력합니다.\n비밀번호 변경에 성공했습니다"
     } else {
-        "Password is Weak\nPassword change was un-successful"
+        "비밀번호가 약함\n비밀번호 변경에 실패했습니다"
     }
 }
 
@@ -247,7 +254,7 @@ mod tests {
         #[test]
         fn test_when_passwords_match_and_it_is_strong_print_strong_and_successful() {
             assert_eq!(
-                "Password is Strong\nPassword change was successful",
+                "비밀번호가 강력합니다.\n비밀번호 변경에 성공했습니다",
                 print_status(1, true)
             );
         }
@@ -255,7 +262,7 @@ mod tests {
         #[test]
         fn test_when_weak_passwords_match_print_weak_and_un_successful() {
             assert_eq!(
-                "Password is Weak\nPassword change was un-successful",
+                "비밀번호가 약함\n비밀번호 변경에 실패했습니다",
                 print_status(0, true)
             );
         }

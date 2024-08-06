@@ -1,5 +1,5 @@
 [package]
-name = "ch09_tuple_pattern_matching_using_match"
+name = "ch34-struct-methods-assoc-fns"
 version = "0.1.0"
 edition = "2021"
 

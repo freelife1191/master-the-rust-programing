@@ -1,0 +1,6 @@
+[package]
+name = "code71-methods-and-associated-functions-of-an-enum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -74,6 +74,11 @@
       <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch32-tuple-struct/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch33-struct-passing-by-ref/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec11-structure/ch34-struct-methods-assoc-fns/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code70-defining-an-enum-in-rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code71-methods-and-associated-functions-of-an-enum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code72-pattern-matching-using-enums/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code73-option-type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code74-option-usage/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code4-borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code5-rust-automatically-deallocates-heap-memory/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code6-features-related-to-type-inference_ownership_error-handling-and-dangling-pointer/target" />
@@ -149,6 +154,11 @@
       <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch32-tuple-struct/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch33-struct-passing-by-ref/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec11-structure/ch34-struct-methods-assoc-fns/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code70-defining-an-enum-in-rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code71-methods-and-associated-functions-of-an-enum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code72-pattern-matching-using-enums/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code73-option-type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code74-option-usage/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

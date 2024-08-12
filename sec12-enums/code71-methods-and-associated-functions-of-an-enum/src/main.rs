@@ -23,6 +23,7 @@ impl Shape {
     }
     fn area(&self) -> f32 {
         match self {
+            // https://doc.rust-lang.org/std/f32/consts/constant.PI.html
             Shape::Circle { radius: r, .. } => std::f32::consts::PI * r * r,
             Shape::Rectangle(rec) => rec.h * rec.w,
             Shape::Square(_, _, s) => s * s,

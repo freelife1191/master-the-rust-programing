@@ -1,0 +1,6 @@
+[package]
+name = "code99-numeric-errors-exercise-contd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

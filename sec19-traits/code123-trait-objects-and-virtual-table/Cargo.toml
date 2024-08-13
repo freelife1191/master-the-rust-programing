@@ -1,0 +1,6 @@
+[package]
+name = "code123-trait-objects-and-virtual-table"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

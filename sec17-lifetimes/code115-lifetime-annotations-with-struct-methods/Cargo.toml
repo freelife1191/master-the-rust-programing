@@ -1,0 +1,6 @@
+[package]
+name = "code115-lifetime-annotations-with-struct-methods"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -1,0 +1,6 @@
+[package]
+name = "code107-function-with-multiple-generic-type-parameters"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -1,0 +1,6 @@
+[package]
+name = "code90-error-handling-using-result-enum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

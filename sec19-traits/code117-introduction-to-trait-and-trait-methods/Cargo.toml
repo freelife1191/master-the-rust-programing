@@ -1,0 +1,6 @@
+[package]
+name = "code117-introduction-to-trait-and-trait-methods"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

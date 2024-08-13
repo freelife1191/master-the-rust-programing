@@ -1,0 +1,6 @@
+[package]
+name = "code120-exercise-implementing-display-trait-for-user-defined-structure-part-2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

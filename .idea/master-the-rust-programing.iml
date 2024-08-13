@@ -79,6 +79,66 @@
       <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code72-pattern-matching-using-enums/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code73-option-type/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec12-enums/code74-option-usage/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code75-introduction-to-vectors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code76-vectors-under-the-hood/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code77-vector-indexing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code78-slice-of-a-vector/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code79-vector-methods-push_pop_shring_to_fit/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code81-vector-methods_drain_extract_if/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code82-vector-methods_retain_retain_mut/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code83-vector-methods_split_and_friends/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code84-vector-methods_splice_append_extend/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code85-vector-methods_prepend_using_index_and_splice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/code86-vecdeque/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec13-vectors/exercise-diy-11/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec14-hashmap/code87-hashmap-and-its-methods-part-1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec14-hashmap/code88-hashmap-and-its-methods-part-2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code100-exercise-on-error-conversion/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code101-exercise-on-error-conversion-contd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code102-map_error-usage/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code103-auto-conversion-of-errors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code104-exercise-diy-12/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code105-can-you-help-us/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code89-enum-result/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code90-error-handling-using-result-enum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code91-exercise-on-result/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code92-error-propagation-operator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code93-converting-option-to-result-type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code94-unwrap-and-expect-methods/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code95-unwrap-err/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code96-std-library-error-types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code97-handling-std-io-error/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code98-numeric-errors-exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec15-error-handling/code99-numeric-errors-exercise-contd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec16-generics/code106-generics-syntax-and-writing-generic-functions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec16-generics/code107-function-with-multiple-generic-type-parameters/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec16-generics/code108-generic-structs-and-enums/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec16-generics/code109-exercise-diy-13/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec17-lifetimes/code110-lifetime-and-scope/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec17-lifetimes/code111-lifetime-annotations-example/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec17-lifetimes/code112-lifetime-elision-rules/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec17-lifetimes/code114-lifetime-annotations-with-structs-contd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec17-lifetimes/code115-lifetime-annotations-with-struct-methods/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec18-const-and-static/code116-const-and-static-variables/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code117-introduction-to-trait-and-trait-methods/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code118-associated-types-of-a-trait/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code119-exercise-implementing-display-trait-for-user-defined-structure-part-1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code120-exercise-implementing-display-trait-for-user-defined-structure-part-2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code121-exercise-implementing-display-trait-for-user-defined-structure-part-3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code122-trait-bounds/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code123-trait-objects-and-virtual-table/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code124-boxing-the-dst/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec19-traits/code125-memory-layout-of-box_dyn_trait/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code126-introduction-to-closures-and-syntax/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code127-closure-capturing-environment/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code128-traits-associated-with-closures/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code129-behaviour-of-closure-variables/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code130-passing-closure-as-arguments-to-a-function-part-1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code131-passing-closure-as-arguments-to-a-function-part-2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code132-closures-as-struct-member-fields/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code133-memory-layout-of-the-program/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code134-types-of-closures/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code135-exercise-on-closure/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code4-borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code5-rust-automatically-deallocates-heap-memory/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code6-features-related-to-type-inference_ownership_error-handling-and-dangling-pointer/target" />
@@ -159,6 +219,66 @@
       <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code72-pattern-matching-using-enums/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code73-option-type/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec12-enums/code74-option-usage/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code75-introduction-to-vectors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code76-vectors-under-the-hood/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code77-vector-indexing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code78-slice-of-a-vector/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code79-vector-methods-push_pop_shring_to_fit/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code81-vector-methods_drain_extract_if/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code82-vector-methods_retain_retain_mut/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code83-vector-methods_split_and_friends/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code84-vector-methods_splice_append_extend/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code85-vector-methods_prepend_using_index_and_splice/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/code86-vecdeque/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec13-vectors/exercise-diy-11/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec14-hashmap/code87-hashmap-and-its-methods-part-1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec14-hashmap/code88-hashmap-and-its-methods-part-2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code100-exercise-on-error-conversion/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code101-exercise-on-error-conversion-contd/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code102-map_error-usage/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code103-auto-conversion-of-errors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code104-exercise-diy-12/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code105-can-you-help-us/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code89-enum-result/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code90-error-handling-using-result-enum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code91-exercise-on-result/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code92-error-propagation-operator/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code93-converting-option-to-result-type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code94-unwrap-and-expect-methods/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code95-unwrap-err/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code96-std-library-error-types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code97-handling-std-io-error/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code98-numeric-errors-exercise/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec15-error-handling/code99-numeric-errors-exercise-contd/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec16-generics/code106-generics-syntax-and-writing-generic-functions/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec16-generics/code107-function-with-multiple-generic-type-parameters/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec16-generics/code108-generic-structs-and-enums/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec16-generics/code109-exercise-diy-13/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec17-lifetimes/code110-lifetime-and-scope/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec17-lifetimes/code111-lifetime-annotations-example/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec17-lifetimes/code112-lifetime-elision-rules/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec17-lifetimes/code114-lifetime-annotations-with-structs-contd/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec17-lifetimes/code115-lifetime-annotations-with-struct-methods/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec18-const-and-static/code116-const-and-static-variables/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code117-introduction-to-trait-and-trait-methods/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code118-associated-types-of-a-trait/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code119-exercise-implementing-display-trait-for-user-defined-structure-part-1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code120-exercise-implementing-display-trait-for-user-defined-structure-part-2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code121-exercise-implementing-display-trait-for-user-defined-structure-part-3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code122-trait-bounds/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code123-trait-objects-and-virtual-table/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code124-boxing-the-dst/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec19-traits/code125-memory-layout-of-box_dyn_trait/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code126-introduction-to-closures-and-syntax/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code127-closure-capturing-environment/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code128-traits-associated-with-closures/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code129-behaviour-of-closure-variables/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code130-passing-closure-as-arguments-to-a-function-part-1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code131-passing-closure-as-arguments-to-a-function-part-2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code132-closures-as-struct-member-fields/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code133-memory-layout-of-the-program/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code134-types-of-closures/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code135-exercise-on-closure/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

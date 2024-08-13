@@ -1,0 +1,6 @@
+[package]
+name = "code97-handling-std-io-error"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

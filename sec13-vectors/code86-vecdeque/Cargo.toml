@@ -1,0 +1,6 @@
+[package]
+name = "code86-vecdeque"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

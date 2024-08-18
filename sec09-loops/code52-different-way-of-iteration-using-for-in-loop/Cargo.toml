@@ -1,0 +1,6 @@
+[package]
+name = "code52-different-way-of-iteration-using-for-in-loop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

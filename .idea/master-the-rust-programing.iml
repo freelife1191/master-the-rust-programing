@@ -139,6 +139,18 @@
       <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code133-memory-layout-of-the-program/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code134-types-of-closures/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sec20-closures/code135-exercise-on-closure/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec17-lifetimes/code113-lifetime-annotations-with-structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec07-strings/code41-strings-and-utf-8-format/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/code51-loop-statements-in-rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/code52-different-way-of-iteration-using-for-in-loop/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/code53-solution/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec09-loops/code54-while-and-while-let-loops/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/code64-struct-and-default-trait/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/code67-associated-function-as-constructor-of-a-struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/code68-pattern-matching-with-struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec11-structure/code69-ref-and-usage-in-pattern-matching-with-struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec01-introduction/code2-how-rust-is-different-from-other-programming-languages-immutability/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sec01-introduction/code7-create-build-run-a-rust-program/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code4-borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code5-rust-automatically-deallocates-heap-memory/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code6-features-related-to-type-inference_ownership_error-handling-and-dangling-pointer/target" />
@@ -279,6 +291,18 @@
       <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code133-memory-layout-of-the-program/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code134-types-of-closures/target" />
       <excludeFolder url="file://$MODULE_DIR$/sec20-closures/code135-exercise-on-closure/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec17-lifetimes/code113-lifetime-annotations-with-structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec07-strings/code41-strings-and-utf-8-format/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/code51-loop-statements-in-rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/code52-different-way-of-iteration-using-for-in-loop/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/code53-solution/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec09-loops/code54-while-and-while-let-loops/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/code64-struct-and-default-trait/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/code67-associated-function-as-constructor-of-a-struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/code68-pattern-matching-with-struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec11-structure/code69-ref-and-usage-in-pattern-matching-with-struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code2-how-rust-is-different-from-other-programming-languages-immutability/target" />
+      <excludeFolder url="file://$MODULE_DIR$/sec01-introduction/code7-create-build-run-a-rust-program/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

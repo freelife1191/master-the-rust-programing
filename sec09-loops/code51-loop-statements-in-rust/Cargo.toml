@@ -1,0 +1,6 @@
+[package]
+name = "code51-loop-statements-in-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

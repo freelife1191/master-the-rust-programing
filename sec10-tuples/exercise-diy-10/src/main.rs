@@ -1,11 +1,3 @@
-/*
-   You've been given a Rust function 'execute_command_original' that currently uses a long if-else-if
-   ladder to execute commnads, depending on the system's operating mode and status.
-   Your challenge is to refactor this code. By implementing tuple pattern matching,
-   you can make the code not only easier to read but also more elegant.
-   The refactored code should correctly handle all
-   combinations of mode and status as the below code does.
-*/
 fn execute_command_original(mode: &str, status: &str) {
     if mode == "admin" && status == "active" {
         println!("Admin privileges granted. Executing active command.");

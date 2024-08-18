@@ -21,4 +21,10 @@ fn main() {
 
     println!("{}", msg);
 
+    //
+    // named placeholders
+    //
+    let message = format!("My name is {user_name} and \
+                                I am {user_age} years old", user_age = age, user_name = name);
+    println!("{}", message);
 }

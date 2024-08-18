@@ -1,6 +1,7 @@
 /* Activate this code block and run 'cargo clippy' and
 observe the errors/suggestions
 
+// https://doc.rust-lang.org/stable/std/f32/consts/constant.PI.html
 // #[deny(clippy::approx_constant)]
 fn main() {
     // error: approximate value of `f{32, 64}::consts::PI` found

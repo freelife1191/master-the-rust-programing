@@ -17,7 +17,7 @@ fn main() {
         // i = i + 1;
     }
 
-    // short hand notations for arithmetic operations
+    // 산술 연산을 위한 약식 표기법
     // +=, -=, *=, /=, %=
     let mut a = 5;
     // a = a * 5;

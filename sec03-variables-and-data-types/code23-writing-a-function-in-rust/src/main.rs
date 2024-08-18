@@ -5,6 +5,7 @@ fn main() {
 
     // module_1::convert_kg_to_grams(4 as f64);
     println!("{}", convert_kg_to_grams(4 as f64));
+    println!("{}", concatenate_strings("Good", " Morning"));
     // println!("{}", find_biggest_string("Good", "Morning")); // Error
 }
 
@@ -22,15 +23,10 @@ fn convert_kg_to_grams(in_kg: f64) -> f64 {
     in_kg * (1000 as f64)
 }
 
-/*
- Legal function names
- illegal function names:
- - 1function (cannot start with a number)
- - add-two-numbers (cannot use hyphens)
- - fn (cannot use reserved keywords as function names)
- - my function (cannot use spaces)
- - print_hello_world! (cannot use special characters except underscores)
- */
+fn concatenate_strings(first: &str, second: &str) -> String {
+    first.to_string() + second
+}
+
 /*
 fn find_biggest_string(first: &str, second: &str) -> &str {
     if first.len() > second.len() {

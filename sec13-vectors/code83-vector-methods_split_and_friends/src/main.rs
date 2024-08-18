@@ -1,16 +1,6 @@
 fn main() {
     /*
     Methods related to split
-
-    Splitting vectors in various ways
-    split_at(), split_at_mut(), split(), rsplit(), splitn(), rsplitn()
-    */
-    /*
-    split_at()
-
-    Divides one slice into two at an index
-    https://doc.rust-lang.org/core/primitive.slice.html#method.split_at
-    https://doc.rust-lang.org/core/primitive.slice.html#method.split_at_mut
     */
     let vec = vec![1, 2, 3, 4, 5];
     let (left, right) = vec.split_at(2);

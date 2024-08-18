@@ -17,7 +17,7 @@ fn main() {
     */
     let mut numbers = vec![-3, -2, -1, 0, 1, 2, 3];
 
-    // This will retain only the positive numbers in the Vec
+    // 그러면 Vec에 양수만 유지됩니다
     // numbers.retain(|x| *x > 0);
     // numbers.retain(retain_positive);
     // numbers.retain_mut(retain_and_modify_positives); // Output: [11, 12, 13]
@@ -29,13 +29,13 @@ fn main() {
     });
     println!("{:?}", numbers); // prints: [1, 2, 3]
 
-    // retain those elements whose length is less than 6
+    // 길이가 6보다 작은 요소를 유지합니다
     let mut planets = vec!["Mercury", "Jupiter", "Earth", "Saturn", "Mars"];
     planets.retain(|planet| planet.len() < 6);
     println!("{:?}", planets); // prints: ["Earth", "Mars"]
 
-    // retain those elements whose length is greater than 6
-    // and modify the retained elements by appending length information
+    // 길이가 6보다 큰 요소를 유지합니다
+    // 길이 정보를 추가하여 유지된 요소를 수정합니다
     // e.g: Hoth: 4
     let mut star_wars_planets = vec![
         String::from("Tatooine"),
@@ -55,3 +55,15 @@ fn main() {
     });
     println!("{:?}", star_wars_planets); // prints: ["Tatooine: 8", "Coruscant: 9", "Dagobah: 7", "Mustafar: 8"]
 }
+
+/*
+Internally, 'retain' iterates over each element of the vector.
+For each element, the closure will be applied.
+For -3, the closure returns false (not retained).
+For -2, the closure returns false (not retained).
+For -1, the closure returns false (not retained).
+For 0, the closure returns false (not retained).
+For 1, the closure returns true.
+For 2, the closure returns true.
+For 3, the closure returns true.
+*/

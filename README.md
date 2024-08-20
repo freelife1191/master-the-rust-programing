@@ -3,6 +3,7 @@
 - https://www.udemy.com/course/master-the-rust-programming-language/?couponCode=JUST4U02223
 - https://github.com/niekiran/Rust
 
+
 ## Rust 공식 추천 도구
 
 - Rust 형식(`rustfmt`): 커뮤니티에 따라 Rust 코드의 형식을 자동으로 지정
@@ -12,6 +13,7 @@
     - Rust 코드를 실행하지 않고 분석하여 Rust 컴파일러 자체에서 발생하는 광범위한 문제를 찾아냄
 - `cargo fix`: 코드를 자동으로 수정하는 도구
     - 코드를 수정하는 데 도움이 되는 린트 규칙을 적용하여 코드를 수정할 수 있음
+
 
 #### VS CODE 에 Clippy 설치
 
@@ -38,6 +40,7 @@ Rust는 구조(구조체)와 특성을 사용하여 객체 지향 프로그래�
 OOP에 대한 Rust의 접근 방식은 Java나 C++와 같은 기존 OOP 언어만큼 완전히 개발되지는 않았지만 일반적인 OOP 디자인 패턴을 구현하는 데 충분한 기능을 제공합니다    
 Rust의 소유권 및 차용 모델은 안전하고 예측 가능한 객체 수명을 보장하는 데 도움이 되므로 OOP 프로그래밍에 적합한 선택입니다
 
+
 ## Rust 는 다른 프로그래밍 언어와 어떻게 다른가요?
 
 - `Concurrency`: Rust에는 동시성 지원 기능이 내장되어 있어 여러 스레드에서 코드를 안전하게 실행할 수 있습니다. 이는 다른 언어에서 사용되는 공유 상태 동시성과 달리 가벼운 "tasks"와 메시지 전달 동시성을 통해 달성됩니다
@@ -45,13 +48,15 @@ Rust의 소유권 및 차용 모델은 안전하고 예측 가능한 객체 수�
 - `Strong typing`: 즉, 변수에는 특정 유형이 있으며 해당 유형을 존중해야 합니다. 이는 컴파일러가 모든 유형 불일치에 플래그를 지정하므로 오류를 조기에 포착하는 데 도움이 되며 코드를 더욱 예측 가능하게 만듭니다
 - `No runtime`: Rust에는 런타임도 없고 가비지 수집기도 없습니다. 이를 통해 프로그램에 대한 더 많은 제어가 가능하고 런타임이 필요하지 않으므로 성능이 저하되고 가비지 수집기의 복잡성이 추가됩니다
 - `Error handling`: Rust는 오류 처리에 대한 독특한 접근 방식을 가지고 있어 오류를 안전하고 명시적으로 처리할 수 있습니다. Rust 에서 오류는 특정 유형으로 표시되며, 이는 프로그래머가 Result 유형 및 `?` 연산자
-- `Cross-platform compatibility`: Rust는 Windows, Linux, macOS 및 심지어 임베디드 시스템을 포함한 다양한 플랫폼에서 실행되는 코드를 작성하는 데 사용될 수 있습니다. 따라서 웹 개발, Linux 커널 개발, 게임 개발 및 IoT를 포함한 다양한 유형의 프로젝트 및 시스템에 적합한 다용도 언어입니다
+- `Cross-platform compatibility`: Rust는 Windows, Linux, macOS 및 심지어 임베디드 시스템을 포함한 다양한 플랫폼에서 실행되는 코드를 작성하는 데 사용될 수 있습니다.  
+  따라서 웹 개발, Linux 커널 개발, 게임 개발 및 IoT를 포함한 다양한 유형의 프로젝트 및 시스템에 적합한 다용도 언어입니다
 
 
 ### 메모리 안전성
 
 메모리 안전은 프로그램이 정의되지 않은 동작을 일으키지 않거나 메모리에 대한 잘못된 액세스로 인해 충돌이 발생하지 않도록 보장하는 것을 의미합니다  
-Rust는 엄격한 소유권 모델, 자동 참조 계산, 한 번에 프로그램의 한 부분에서만 메모리 조각에 액세스할 수 있도록 보장하는 빌림 검사기, `null`과 같은 일반적인 프로그래밍 오류 방지, 데이터 경합 및 매달린 포인터 참조 등의 기능을 결합하여 이를 달성합니다
+Rust는 엄격한 소유권 모델, 자동 참조 계산, 한 번에 프로그램의 한 부분에서만 메모리 조각에 액세스할 수 있도록 보장하는 빌림 검사기, `null`과 같은 일반적인 프로그래밍 오류 방지, 데이터 경합 및 매달린
+포인터 참조 등의 기능을 결합하여 이를 달성합니다
 
 #### Rust는 자동으로 힙 메모리 할당을 해제합니다
 
@@ -74,11 +79,9 @@ Rust는 엄격한 소유권 모델, 자동 참조 계산, 한 번에 프로그�
 
 ![img.png](attachments/img2.png)
 
-
 - 코드는 경고 `Wreturn-local-addr`과 함께 컴파일됩니다
 - 'p'에는 유효하지 않은 주소가 있습니다
 - 'p'를 역참조하면 원하지 않는 동작이나 충돌이 발생합니다
-
 
 ### Type inference
 
@@ -98,43 +101,68 @@ int x = 42; // The type of `x` is explicitly set to `int`
 - Rust 프로그래밍 언어는 정의되지 않은 동작을 방지하기 위해 명시적인 오류 처리 및 컴파일 타임 검사를 사용하는 반면 C++는 예외에 의존합니다
 
 
+## Rust 자료형에 대응하는 Java 자료형
+
+| **Rust 자료형**    | **Java 자료형**                       |
+|-----------------|------------------------------------|
+| `i8`            | `byte`                             |
+| `i16`           | `short`                            |
+| `i32`           | `int`                              |
+| `i64`           | `long`                             |
+| `i128`          | `BigInteger`                       |
+| `isize`         | `int` (32-bit) 또는 `long` (64-bit)  |
+| `u8`            | `short` (부호 없는 정수형은 Java에 없음)      |
+| `u16`           | `int` (부호 없는 정수형은 Java에 없음)        |
+| `u32`           | `long` (부호 없는 정수형은 Java에 없음)       |
+| `u64`           | `BigInteger` (부호 없는 정수형은 Java에 없음) |
+| `usize`         | `int` (32-bit) 또는 `long` (64-bit)  |
+| `f32`           | `float`                            |
+| `f64`           | `double`                           |
+| `bool`          | `boolean`                          |
+| `char`          | `char`                             |
+| `&str`          | `String`                           |
+| `String`        | `String`                           |
+| `[T; N]`        | `T[]`                              |
+| `(T1, T2, ...)` | `class` (사용자 정의 클래스)               |
+
+
 ## Rust 문서 모음
 
 - 러스트 북 커뮤니티 번역본: https://doc.rust-kr.org/
 - 러스트 북 원본 영문: https://doc.rust-lang.org/stable/book/
 - 러스트 북 Summary: https://codeahoy.com/learn/tutorials/rust-book-summary/
 - 러스트 북 Example Solutions
-  - https://github.com/kmoschcau/rust-book-exercises
-  - https://github.com/olehmisar/The-Rust-Programming-Language-Book-Solutions
-  - https://github.com/laercioxlaercio/rust
-  - https://github.com/kevinalh/rust-book
-  - https://github.com/klemola/rust-book
-  - https://github.com/jasonkuhrt-archive/rust-book-exercises
-  - https://github.com/Lukman-01/rust-learn-by-practice
-  - https://github.com/rust-unofficial/rust-practise-questions/tree/master/src
+    - https://github.com/kmoschcau/rust-book-exercises
+    - https://github.com/olehmisar/The-Rust-Programming-Language-Book-Solutions
+    - https://github.com/laercioxlaercio/rust
+    - https://github.com/kevinalh/rust-book
+    - https://github.com/klemola/rust-book
+    - https://github.com/jasonkuhrt-archive/rust-book-exercises
+    - https://github.com/Lukman-01/rust-learn-by-practice
+    - https://github.com/rust-unofficial/rust-practise-questions/tree/master/src
 - 러스트 북 Quiz 버전: https://rust-book.cs.brown.edu/
 - 표준 라이브러리 문서: https://www.rust-lang.org/learn
 - Rust API Document: https://doc.rust-lang.org/std/
 - Rust Project: https://www.rust-lang.org/
 - Rust Document: https://doc.rust-lang.org/beta/
-  - Rust Reference: https://doc.rust-lang.org/beta/reference/index.html
-  - The Edition Guide: https://doc.rust-lang.org/beta/edition-guide/editions/index.html
-  - The Release Notes: https://doc.rust-lang.org/beta/releases.html
-  - The rustc Book: https://doc.rust-lang.org/rustc/
-  - The Cargo Book: https://doc.rust-lang.org/beta/cargo/index.html
-  - The Rustdoc Book: https://doc.rust-lang.org/beta/rustdoc/index.html
-  - The Clippy Book: https://doc.rust-lang.org/beta/clippy/index.html
-  - rustc error codes: https://doc.rust-lang.org/beta/error_codes/index.html
-  - The Style Guide: https://doc.rust-lang.org/beta/style-guide/index.html
-  - The Rustonomicon: https://doc.rust-lang.org/beta/nomicon/index.html
-  - The Unstable Book: https://doc.rust-lang.org/beta/unstable-book/index.html
-  - Rust Compiler Developer Guide: https://rustc-dev-guide.rust-lang.org/
-  - Rust Embedded: https://github.com/rust-embedded
-  - The Embedded Rust Book: https://doc.rust-lang.org/beta/embedded-book/index.html
+    - Rust Reference: https://doc.rust-lang.org/beta/reference/index.html
+    - The Edition Guide: https://doc.rust-lang.org/beta/edition-guide/editions/index.html
+    - The Release Notes: https://doc.rust-lang.org/beta/releases.html
+    - The rustc Book: https://doc.rust-lang.org/rustc/
+    - The Cargo Book: https://doc.rust-lang.org/beta/cargo/index.html
+    - The Rustdoc Book: https://doc.rust-lang.org/beta/rustdoc/index.html
+    - The Clippy Book: https://doc.rust-lang.org/beta/clippy/index.html
+    - rustc error codes: https://doc.rust-lang.org/beta/error_codes/index.html
+    - The Style Guide: https://doc.rust-lang.org/beta/style-guide/index.html
+    - The Rustonomicon: https://doc.rust-lang.org/beta/nomicon/index.html
+    - The Unstable Book: https://doc.rust-lang.org/beta/unstable-book/index.html
+    - Rust Compiler Developer Guide: https://rustc-dev-guide.rust-lang.org/
+    - Rust Embedded: https://github.com/rust-embedded
+    - The Embedded Rust Book: https://doc.rust-lang.org/beta/embedded-book/index.html
 - Rust Docs 검색: https://docs.rs/
 - Rust Playground: https://play.rust-lang.org/?version=stable&mode=debug&edition=2021
 - Rust 예제: https://doc.rust-lang.org/rust-by-example/
 - Rust 예제 & 해답: https://github.com/rust-lang/rustlings
-  - https://github.imc.re/topics/rustlings-solution?o=asc&s=stars
+    - https://github.imc.re/topics/rustlings-solution?o=asc&s=stars
 - Rust By Practice: https://practice.course.rs/why-exercise.html
 - 100 Exercises To Learn Rust: https://rust-exercises.com/100-exercises/

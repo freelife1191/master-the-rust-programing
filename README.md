@@ -128,41 +128,83 @@ int x = 42; // The type of `x` is explicitly set to `int`
 
 ## Rust 문서 모음
 
+---
+
 - 러스트 북 커뮤니티 번역본: https://doc.rust-kr.org/
+  - GitHub: https://github.com/rust-kr/doc.rust-kr.org/blob/master/src/ch10-00-generics.md
 - 러스트 북 원본 영문: https://doc.rust-lang.org/stable/book/
 - 러스트 북 Summary: https://codeahoy.com/learn/tutorials/rust-book-summary/
 - 러스트 북 Example Solutions
-    - https://github.com/kmoschcau/rust-book-exercises
-    - https://github.com/olehmisar/The-Rust-Programming-Language-Book-Solutions
-    - https://github.com/laercioxlaercio/rust
-    - https://github.com/kevinalh/rust-book
-    - https://github.com/klemola/rust-book
-    - https://github.com/jasonkuhrt-archive/rust-book-exercises
-    - https://github.com/Lukman-01/rust-learn-by-practice
-    - https://github.com/rust-unofficial/rust-practise-questions/tree/master/src
+  - https://github.com/kmoschcau/rust-book-exercises
+  - https://github.com/olehmisar/The-Rust-Programming-Language-Book-Solutions
+  - https://github.com/laercioxlaercio/rust
+  - https://github.com/kevinalh/rust-book
+  - https://github.com/klemola/rust-book
+  - https://github.com/jasonkuhrt-archive/rust-book-exercises
+  - https://github.com/Lukman-01/rust-learn-by-practice
+  - https://github.com/rust-unofficial/rust-practise-questions/tree/master/src
+- 러스트 프로그래밍 공식 가이드 스터디: https://github.com/karais89/rust-the-book
 - 러스트 북 Quiz 버전: https://rust-book.cs.brown.edu/
 - 표준 라이브러리 문서: https://www.rust-lang.org/learn
 - Rust API Document: https://doc.rust-lang.org/std/
 - Rust Project: https://www.rust-lang.org/
 - Rust Document: https://doc.rust-lang.org/beta/
-    - Rust Reference: https://doc.rust-lang.org/beta/reference/index.html
-    - The Edition Guide: https://doc.rust-lang.org/beta/edition-guide/editions/index.html
-    - The Release Notes: https://doc.rust-lang.org/beta/releases.html
-    - The rustc Book: https://doc.rust-lang.org/rustc/
-    - The Cargo Book: https://doc.rust-lang.org/beta/cargo/index.html
-    - The Rustdoc Book: https://doc.rust-lang.org/beta/rustdoc/index.html
-    - The Clippy Book: https://doc.rust-lang.org/beta/clippy/index.html
-    - rustc error codes: https://doc.rust-lang.org/beta/error_codes/index.html
-    - The Style Guide: https://doc.rust-lang.org/beta/style-guide/index.html
-    - The Rustonomicon: https://doc.rust-lang.org/beta/nomicon/index.html
-    - The Unstable Book: https://doc.rust-lang.org/beta/unstable-book/index.html
-    - Rust Compiler Developer Guide: https://rustc-dev-guide.rust-lang.org/
-    - Rust Embedded: https://github.com/rust-embedded
-    - The Embedded Rust Book: https://doc.rust-lang.org/beta/embedded-book/index.html
+  - Rust Reference: https://doc.rust-lang.org/beta/reference/index.html
+  - The Edition Guide: https://doc.rust-lang.org/beta/edition-guide/editions/index.html
+  - The Release Notes: https://doc.rust-lang.org/beta/releases.html
+  - The rustc Book: https://doc.rust-lang.org/rustc/
+  - The Cargo Book: https://doc.rust-lang.org/beta/cargo/index.html
+  - The Rustdoc Book: https://doc.rust-lang.org/beta/rustdoc/index.html
+  - The Clippy Book: https://doc.rust-lang.org/beta/clippy/index.html
+  - rustc error codes: https://doc.rust-lang.org/beta/error_codes/index.html
+  - The Style Guide: https://doc.rust-lang.org/beta/style-guide/index.html
+  - The Rustonomicon: https://doc.rust-lang.org/beta/nomicon/index.html
+  - The Unstable Book: https://doc.rust-lang.org/beta/unstable-book/index.html
+  - Rust Compiler Developer Guide: https://rustc-dev-guide.rust-lang.org/
+  - Rust Embedded: https://github.com/rust-embedded
+  - The Embedded Rust Book: https://doc.rust-lang.org/beta/embedded-book/index.html
 - Rust Docs 검색: https://docs.rs/
 - Rust Playground: https://play.rust-lang.org/?version=stable&mode=debug&edition=2021
 - Rust 예제: https://doc.rust-lang.org/rust-by-example/
 - Rust 예제 & 해답: https://github.com/rust-lang/rustlings
-    - https://github.imc.re/topics/rustlings-solution?o=asc&s=stars
+  - https://github.imc.re/topics/rustlings-solution?o=asc&s=stars
 - Rust By Practice: https://practice.course.rs/why-exercise.html
 - 100 Exercises To Learn Rust: https://rust-exercises.com/100-exercises/
+- Comprehensive Rust book(Google Android 팀 제작): https://google.github.io/comprehensive-rust/ko/index.html
+  - GitHub: https://github.com/google/comprehensive-rust
+- 러스트 관련 링크 모음: https://github.com/YoungHaKim7/Rust_BackEnd_Web_Dev
+
+
+## Rust 라이브러리 모음
+
+---
+
+- flapigen(jni 변환): https://github.com/Dushistov/flapigen-rs
+- Awesome Rust(각종 Rust 인기 라이브러리 모음): https://github.com/rust-unofficial/awesome-rust
+
+
+## Rust 국내출간도서 예제코드 모음
+
+---
+
+- 러스트 프로페셔널 코드(제이펍) - 동시성, 성능 최적화, 디자인 패턴 등 러스트 전문가가 되기 위한 모든 것
+  - https://github.com/brndnmtthws/code-like-a-pro-in-rust-book
+- 커맨드라인 러스트(제이펍) - `cat`,`grep`,`ls`등 14가지 유용한 CLI 도구를 클론 코딩하며 배우는 러스트 활용
+  - https://github.com/chosungmann/command-line-rust-examples
+- 러스트 서버, 서비스, 앱, 만들기(제이펍) - 백엔드 서버, 서비스, 프런트엔드 모두 러스트로 안전하고 빠르게 구축하기
+  - https://github.com/moseskim/rust-servers-services-apps
+- 제로부터 시작하는 러스트 백엔드 프로그래밍(제이펍) - 뉴스레터 API를 만들며 배우는 러스트 A to Z
+  - https://github.com/LukeMathWalker/zero-to-production
+- 프로그래밍 러스트(제이펍) - 빠르고 안전한 시스템 개발 개정2판
+  - https://github.com/chosungmann/programming-rust-2nd-edition-examples
+- 파이썬과 비교하며 배우는 러스트 프로그래밍
+  - https://indosaram.github.io/rust-python-book/ch1-00.html
+  - https://github.com/Indosaram/rust-python-book
+- 러스트 동시성 프로그래밍(한빛미디어) - Atomic과 Lock으로 안전하고 효율적인 동시성 코드 작성하기
+  - https://marabos.nl/atomics
+- 러스트 웹 개발(길벗) - Tokio, Warp, Reqwest를 활용한 웹 애플리케이션 개발!
+  - https://github.com/gilbutITbook/080350
+- 러스트 프로그래밍(인사이트) - 러스트 언어의 기초부터 실전까지
+  - https://github.com/rust-in-action/code
+- 만들면서 배우는 러스트 프로그래밍(위키북스) - 다양한 예제로 쉽게 익히고 널리 활용하는 고효율 언어 Rust 실전 가이드
+  - https://github.com/wikibook/rust

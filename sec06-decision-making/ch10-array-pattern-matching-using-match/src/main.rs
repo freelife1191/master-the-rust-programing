@@ -16,7 +16,7 @@ fn main() {
     };
     */
 
-    // Clippy 에서 matches! 매크로를 사용하는 거싱 더 좋을 거 같다고 제안
+    // Clippy 에서 matches! 매크로를 사용하는 것이 더 좋을 거 같다고 제안
     let invalid_array = matches!(array1, [n,_,_,_] | [_,n,_,_] | [_,_,n,_] | [_,_,_,n] if n < 0);
 
     if invalid_array {

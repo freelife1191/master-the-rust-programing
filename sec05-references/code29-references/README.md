@@ -36,7 +36,7 @@ fn main() {
 - `ref_of_value` 유형은 `&i32`입니다
 
 
-```
+````
 int main() {
     const int value = 42;
     const int *const pointer_to_value = &value;

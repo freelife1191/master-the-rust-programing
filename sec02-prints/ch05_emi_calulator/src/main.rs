@@ -10,7 +10,7 @@ fn main() {
     let currency_symbol = '₩'; // $, £, ¥, ₹, ₩
 
     //대출금액을 입력하세요.
-    println!(TODOs);
+    // println!(TODOs);
     io::stdin()
         .read_line(&mut input)
         .expect("Failed to read line");
@@ -18,7 +18,7 @@ fn main() {
     input.clear();
 
     // 연이자율을 입력합니다.
-    println!(TODOs);
+    // println!(TODOs);
     io::stdin()
         .read_line(&mut input)
         .expect("Failed to read line");
@@ -26,7 +26,7 @@ fn main() {
     input.clear();
 
     // 상환 개월 수를 입력합니다.
-    println!(TODOs);
+    // println!(TODOs);
     io::stdin()
         .read_line(&mut input)
         .expect("Failed to read line");
@@ -35,7 +35,7 @@ fn main() {
 
     // 월간 EMI는
     let emi = calculate_emi(principal, annual_rate, months);
-    println!(TODOs);
+    // println!(TODOs);
 }
 
 /*

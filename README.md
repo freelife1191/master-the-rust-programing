@@ -128,8 +128,6 @@ int x = 42; // The type of `x` is explicitly set to `int`
 
 ## Rust 문서 모음
 
----
-
 - 러스트 북 커뮤니티 번역본: https://doc.rust-kr.org/
   - GitHub: https://github.com/rust-kr/doc.rust-kr.org/blob/master/src/ch10-00-generics.md
 - 러스트 북 원본 영문: https://doc.rust-lang.org/stable/book/
@@ -148,10 +146,10 @@ int x = 42; // The type of `x` is explicitly set to `int`
 - 표준 라이브러리 문서: https://www.rust-lang.org/learn
 - Rust API Document: https://doc.rust-lang.org/std/
 - Rust Project: https://www.rust-lang.org/
-- Rust Document: https://doc.rust-lang.org/beta/
-  - Rust Reference: https://doc.rust-lang.org/beta/reference/index.html
-  - The Edition Guide: https://doc.rust-lang.org/beta/edition-guide/editions/index.html
-  - The Release Notes: https://doc.rust-lang.org/beta/releases.html
+- Rust Document: https://doc.rust-lang.org/
+  - Rust Reference: https://doc.rust-lang.org/reference/introduction.html
+  - The Edition Guide: https://doc.rust-lang.org/edition-guide/editions/index.html
+  - The Release Notes: https://doc.rust-lang.org/releases.html
   - The rustc Book: https://doc.rust-lang.org/rustc/
   - The Cargo Book: https://doc.rust-lang.org/beta/cargo/index.html
   - The Rustdoc Book: https://doc.rust-lang.org/beta/rustdoc/index.html
@@ -165,27 +163,42 @@ int x = 42; // The type of `x` is explicitly set to `int`
   - The Embedded Rust Book: https://doc.rust-lang.org/beta/embedded-book/index.html
 - Rust Docs 검색: https://docs.rs/
 - Rust Playground: https://play.rust-lang.org/?version=stable&mode=debug&edition=2021
-- Rust 예제: https://doc.rust-lang.org/rust-by-example/
-- Rust 예제 & 해답: https://github.com/rust-lang/rustlings
   - https://github.imc.re/topics/rustlings-solution?o=asc&s=stars
-- Rust By Practice: https://practice.course.rs/why-exercise.html
-- 100 Exercises To Learn Rust: https://rust-exercises.com/100-exercises/
 - Comprehensive Rust book(Google Android 팀 제작): https://google.github.io/comprehensive-rust/ko/index.html
   - GitHub: https://github.com/google/comprehensive-rust
 - 러스트 관련 링크 모음: https://github.com/YoungHaKim7/Rust_BackEnd_Web_Dev
+- Learning Rust: https://gist.github.com/noxasaxon/7bf5ebf930e281529161e51cd221cf8a
 
+## Rust 무료 전자책
 
-## Rust 라이브러리 모음
+- Effective Rust
+  - https://effective-rust.com/title-page.html
+- The Little Book of Rust Macros
+  - https://danielkeep.github.io/tlborm/book/index.html
+- Rust Atomics and Locks
+  - https://marabos.nl/atomics/foreword.html
+- Rust Design Patterns
+  - https://rust-unofficial.github.io/patterns/
+- Learn Rust 101
+  - https://rust-lang.guide/intro/index.html
+- A Gentle Introduction To Rust
+  - https://stevedonovan.github.io/rust-gentle-intro/
+- Easy Rust
+  - https://dhghomon.github.io/easy_rust/
 
----
+## Rust Example
+- Rust 예제: https://doc.rust-lang.org/rust-by-example/
+- Rust 예제 & 해답: https://github.com/rust-lang/rustlings
+- Rust By Practice: https://practice.course.rs/why-exercise.html
+- 100 Exercises To Learn Rust: https://rust-exercises.com/100-exercises/
 
-- flapigen(jni 변환): https://github.com/Dushistov/flapigen-rs
-- Awesome Rust(각종 Rust 인기 라이브러리 모음): https://github.com/rust-unofficial/awesome-rust
+- 궁극의 러스트
+  - https://github.com/CleanCut/ultimate_rust_crash_course
+  - https://github.com/CleanCut/ultimate_rust2
+  - https://github.com/CleanCut/rusty_engine
 
 
 ## Rust 국내출간도서 예제코드 모음
-
----
 
 - 러스트 프로페셔널 코드(제이펍) - 동시성, 성능 최적화, 디자인 패턴 등 러스트 전문가가 되기 위한 모든 것
   - https://github.com/brndnmtthws/code-like-a-pro-in-rust-book
@@ -199,6 +212,7 @@ int x = 42; // The type of `x` is explicitly set to `int`
   - https://github.com/chosungmann/programming-rust-2nd-edition-examples
 - 파이썬과 비교하며 배우는 러스트 프로그래밍
   - https://indosaram.github.io/rust-python-book/ch1-00.html
+- Code from for Refactoring to Rust
   - https://github.com/Indosaram/rust-python-book
 - 러스트 동시성 프로그래밍(한빛미디어) - Atomic과 Lock으로 안전하고 효율적인 동시성 코드 작성하기
   - https://marabos.nl/atomics
@@ -208,3 +222,67 @@ int x = 42; // The type of `x` is explicitly set to `int`
   - https://github.com/rust-in-action/code
 - 만들면서 배우는 러스트 프로그래밍(위키북스) - 다양한 예제로 쉽게 익히고 널리 활용하는 고효율 언어 Rust 실전 가이드
   - https://github.com/wikibook/rust
+- Rust Crash Course
+  - https://github.com/bpbpublications/Rust-Crash-Course
+- Write Powerful Rust Macros
+  - https://github.com/GlenDC/write-powerful-rust-macros/
+- Idiomatic Rust: Code like a Rustacean source code (Rust Design Patterns)
+  - https://github.com/brndnmtthws/idiomatic-rust-book
+- Rust Web Programming - Second Edition
+  - https://github.com/PacktPublishing/Rust-Web-Programming-2nd-Edition
+- Refactoring to Rust
+  - https://github.com/lily-mara/refactoring-to-rust
+- Black Hat Rust
+  - https://github.com/skerkour/black-hat-rust
+- Dark Web Rust
+  - https://github.com/wiseaidev/dark-web-rust
+- Rust Systems Programming
+  - https://github.com/alfredodeza/rust-systems-programming
+- Ultimate Rust for Systems Programming
+  - https://github.com/OrangeAVA/Ultimate-Rust-for-Systems-Programming
+- Beginning Rust: From Novice to Professional
+  - https://github.com/Apress/beginning-rust-2e
+- Hands-on Rust
+  - https://github.com/thebracket/HandsOnRust
+
+### Rust Old
+
+- Creative Projects for Rust Programmers
+  - https://github.com/PacktPublishing/Creative-Projects-for-Rust-Programmers
+- Practical Machine Learning with Rust: Creating Intelligent Applications in Rust
+  - https://github.com/Apress/practical-machine-learning-w-rust
+- Programming-WebAssembly-With-Rust-Sources
+  - https://github.com/liborui/Programming-WebAssembly-With-Rust-Sources
+- The Complete Rust Programming Reference Guide
+  - https://github.com/PacktPublishing/The-Complete-Rust-Programming-Reference-Guide
+- Hands-On Data Structures and Algorithms with Rust
+  - https://github.com/PacktPublishing/Hands-On-Data-Structures-and-Algorithms-with-Rust
+- Hands-On Microservices with Rust 2018: How To Build Scalable and Reliable RESTful Microservices
+  - https://github.com/PacktPublishing/Hands-On-Microservices-with-Rust
+- Rust High Performance
+  - https://github.com/PacktPublishing/Rust-High-Performance
+- Hands-On Functional Programming in Rust
+  - https://github.com/PacktPublishing/Hands-On-Functional-Programming-in-Rust
+- Hands-On Concurrency with Rust
+  - https://github.com/PacktPublishing/Hands-On-Concurrency-with-Rust
+- Rust Essentials - Second Edition
+  - https://github.com/PacktPublishing/Rust-Essentials-Second-Edition
+- Mastering Rust - Second Edition
+  - https://github.com/PacktPublishing/Mastering-RUST-Second-Edition
+- Rust Quick Start Guide
+  - https://github.com/PacktPublishing/Rust-Quick-Start-Guide
+- Rust Programming By Example: Enter the world of Rust by building engaging, concurrent, reactive, and robust applications
+  - https://github.com/PacktPublishing/Rust-Programming-By-Example
+- Network Programming with Rust
+  - https://github.com/PacktPublishing/Network-Programming-with-Rust
+- Rust Standard Library Cookbook
+  - https://github.com/PacktPublishing/Rust-Standard-Library-Cookbook
+- Rust Cookbook
+  - https://github.com/PacktPublishing/Rust-Cookbook
+- Rust Programming Cookbook
+  - https://github.com/PacktPublishing/Rust-Programming-Cookbook
+
+## Rust 라이브러리 모음
+
+- flapigen(jni 변환): https://github.com/Dushistov/flapigen-rs
+- Awesome Rust(각종 Rust 인기 라이브러리 모음): https://github.com/rust-unofficial/awesome-rust  

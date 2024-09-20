@@ -1,0 +1,6 @@
+[package]
+name = "code143-trait-Iterator-vs-trait-IntoIterator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

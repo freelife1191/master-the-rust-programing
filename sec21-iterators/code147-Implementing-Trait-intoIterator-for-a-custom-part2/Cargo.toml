@@ -1,0 +1,6 @@
+[package]
+name = "code147-Implementing-Trait-intoIterator-for-a-custom-part2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -1,0 +1,6 @@
+[package]
+name = "code141-iterating-over-custom-iterator-by-value_mutable-and-immutable-borrow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -3,6 +3,10 @@
 - https://www.udemy.com/course/master-the-rust-programming-language/?couponCode=JUST4U02223
 - https://github.com/niekiran/Rust
 
+### 강의 자료
+- Part1: [rust-part-1-Section1-Introduction-to-Section12-Enums.pdf](docs/rust-part-1-Section1-Introduction-to-Section12-Enums.pdf)
+- Part2: [rust-part-2-Section13-Vectors-to-Section20-Closures.pdf](docs/rust-part-2-Section13-Vectors-to-Section20-Closures.pdf)
+
 
 ## Rust 공식 추천 도구
 
